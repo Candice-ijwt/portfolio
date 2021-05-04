@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="C:\Users\bees\Desktop\CANDICE\Portfolio\main.css">
+  <title> Candice's portfolio </title>
+  
+</head>
+<body>
+    <a id="#top"></a>
+     <!-- Header -->
+     <header>
+    <h2 class="name">Candice Boutet</h2>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+<a href="#aboutme"> About Me </a>
+<a href="#projects"> Projects </a>
+<a href="#skills"> Skills </a>
+<a href="#contact"> Contact </a>
+        </div>
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ MENU </button>
+
+            <script>
+                function openNav() {
+                  document.getElementById("mySidebar").style.width = "250px";
+                  document.getElementById("main").style.marginLeft = "250px";
+                }
+                
+                function closeNav() {
+                  document.getElementById("mySidebar").style.width = "0";
+                  document.getElementById("main").style.marginLeft= "0";
+                }
+                </script>
+    </nav>
+    
+</header>
+<!-- Banner and Title -->
+<section class="banner">
+    <div class= "both">
+        <p class="subtitle">Welcome to</p>
+
+    <h1 class="title">My Portfolio</h1> </div>
+</section>
+
+
+    <main>
+        <!-- About me -->
+        <section id="aboutme">
+            <div class="aboutmecontainer">
+                <img class="aboutmepic" src="C:\Users\bees\Desktop\CANDICE\Portfolio\candice.jpg">
+                <div class="aboutmetextcontainer">
+                    <h2> About me </h2>
+                    <p> Hi! I'm Candice, a future Front-End developper based in Toulouse, France.
+                        I'm currently learning how to code with Codecademy.
+                        Web development has combined my desire to design, create and problem solve 
+                        into one career path.</p>
+                        <p>I am excited for what the future brings!</p>
+
+                </div>
+
+            </div>
+        </section>
+<!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div id="skills-container">
+              <i class="html5"><img src="https://img.icons8.com/dusk/64/000000/html-5.png"/></i>
+              <i class="css3"><img src="https://img.icons8.com/dusk/64/000000/css3.png"/></i>
+              <i class="js"><img src="https://img.icons8.com/dusk/64/000000/javascript-logo.png"/></i>
+            </div>
+            </section>
+
+  <!-- Projects -->  
+  <section class="projectscontainer" id="projects">
+      <div class="row">
+      <h2> Projects </h2>
+      <div class="column" id="deli">
+      <h3> Camera Deli Restaurant </h3>
+      <p> Camera Deli Restaurant is a fake restaurant website I imagined when I first started to learn HTML and CSS</p>
+    </div>
+    <div class="column" id="bees">
+        <h3> BEES </h3> 
+    <p> This is a website I built for the company I'm currently working with.</p></div>
+    </div>
+  </section> 
+  
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p> I'm always open to new ideas and projects, don't hesitate to reach by email! </p>
+        <img src="https://img.icons8.com/plasticine/100/000000/email.png"/>
+    </main>
+</body>
+<footer>
+    <a href="#top" class="totop">BACK TO TOP</a>
+</footer>
+
